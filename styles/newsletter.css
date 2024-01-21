@@ -1,6 +1,7 @@
 .newsletter {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 /* left */
@@ -9,6 +10,7 @@
     border: 1px solid #FF5400;
     width: 474px;
     padding: 40px;
+    margin-right: 24px;
 }
 .newsletter > .left > h2 {
     color: #131318;
@@ -77,8 +79,8 @@ input::placeholder {
 /* save */
 .newsletter > .save {
     position: absolute;
-    top: 350px;
-    left: 1065px;
+    top: 250px;
+    left: 900px;
     border-radius: 16px;
     background: #FF5400;
     width: 324px;
