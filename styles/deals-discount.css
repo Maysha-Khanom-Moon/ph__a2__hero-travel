@@ -1,0 +1,116 @@
+.deals-discount {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-discount > .head > h1 {
+    margin-bottom: 24px;
+}
+
+.deals-discount > .head > p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+/* top banner */
+.deals-discount > .top {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1235px;
+    height: 520px;
+    border-radius: 16px;
+    background: url("../Images/Group\ 39.png"), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 24px;
+}
+
+.deals-discount > .top > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin: 56px;
+    padding-bottom: 26px;
+}
+
+.deals-discount > .top > .content > ul {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    list-style: none;
+    column-gap: 24px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+.deals-discount > .top > .content > ul i {
+    margin-right: 8px;
+    color: #FF5400;
+}
+
+.deals-discount > .top > .content > h2 {
+    margin-left: 50px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.deals-discount > .top > .content > p {
+    margin-left: 50px;
+    text-align: left;
+    width: 452px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.deals-discount > .top > .content > h3 {
+    margin-left: 50px;
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-discount > .top > .content > button {
+    margin-left: 50px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px 24px 13px 25px;
+}
+
+/* middle */
+.deals-discount #middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-image: url("../Images/Group\ 40.png");
+}
