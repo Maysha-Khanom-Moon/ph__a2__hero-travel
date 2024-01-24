@@ -1,0 +1,51 @@
+.popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    gap: 50px;
+    width: 1170px;
+}
+
+.popular > .left {
+    width: 1440px;
+}
+
+.popular > .left > h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.popular > .left > p, .popular > .left li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.popular > .left > ul {
+    margin-left: 20px;
+}
+
+.popular > .left > button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px 34px 13px 35px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.popular > .right > img {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
