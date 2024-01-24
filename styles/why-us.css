@@ -1,0 +1,72 @@
+.why-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.why-us > h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.why-us > p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.why-us > .cart-list {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    height: auto;
+    margin: 0 50px 100px;
+}
+
+.why-us > .cart-list > .cart {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 550px;
+    height: 240px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.why-us > .cart-list > .cart > img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+}
+
+.why-us > .cart-list > .cart > h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.why-us > .cart-list > .cart > p {
+    width: 486px;
+    color: #5A5A5D;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
